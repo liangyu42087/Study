@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         food_recyclerview.adapter = foodAdapter
         food_recyclerview.layoutManager = layoutManager
         viewModel.getFoods().observe(this, Observer {
+            //If we get it from real room, we dont need to do this.
             foodAdapter.submitList(ArrayList<Food>(it))
         })
         viewModel.getError().observe(this, Observer {

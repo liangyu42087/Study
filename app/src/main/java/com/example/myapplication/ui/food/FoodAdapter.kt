@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
-import com.example.myapplication.data.model.Food
+import com.example.myapplication.data.db.model.Food
 import kotlinx.android.synthetic.main.food_list_item_layout.view.*
 
 

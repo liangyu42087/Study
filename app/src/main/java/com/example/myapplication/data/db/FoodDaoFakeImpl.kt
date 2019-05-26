@@ -2,7 +2,7 @@ package com.example.myapplication.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.myapplication.data.model.Food
+import com.example.myapplication.data.db.model.Food
 
 class FoodDaoFakeImpl : FoodDao {
 
